@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e8eff1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 380px;
+}
+
+h1 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #27ae60; /* Verde para remeter a dinheiro/sucesso */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+/* Caixa de Resultado */
+.resultado-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f1fcf4;
+    border-left: 5px solid #27ae60;
+    border-radius: 4px;
+}
+
+.resultado-box h3 {
+    margin: 0 0 10px 0;
+    font-size: 1rem;
+    color: #27ae60;
+}
+
+.resultado-box p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #2c3e50;
+}
+
+.hidden {
+    display: none;
+}

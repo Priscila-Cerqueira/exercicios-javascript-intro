@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 01 - Gerador Dinâmico de Ticket</title>
+    <link rel="stylesheet" href="ex01.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Retire aqui o seu ticket de atendimento</h1>
+        
+        <div class="form-group">
+            <label for="inputCliente">Nome do Cliente:</label>
+            <input type="text" id="inputCliente" placeholder="Digite o nome completo do cliente">
+        </div>
+
+        <div class="form-group">
+            <label for="inputProduto">Produto/Serviço:</label>
+            <input type="text" id="inputProduto" placeholder="Qual produto precisa de suporte?">
+        </div>
+
+        <button id="btnGerar">Gerar Ticket de Atendimento</button>
+
+        <div id="ticketResultado" class="ticket hidden">
+            <div class="ticket-header">
+                <h3>Chamado Registrado</h3>
+                <span class="status">Aberto</span>
+            </div>
+            <div class="ticket-body">
+                <p id="mensagemFormatada"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="ex01.js"></script>
+</body>
+</html>
